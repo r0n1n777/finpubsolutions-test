@@ -35,7 +35,7 @@ body {
 }
 
 .header-form {
-    background-image: url('/resources/img/bg.png');
+    background-image: url('../../resources/img/bg.png');
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
