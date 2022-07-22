@@ -1,0 +1,45 @@
+<?php $_shouldextend[1]=1; ?>
+
+<?php $this->startSection('content'); ?>
+<div class="container-fluid p-3">
+ <div class="container mb-5 d-flex flex-column align-items-center justify-content-center font-family-poppins">
+ <img width="150" class="img-fluid my-2" src="/resources/img/foot-note.png" />
+ <span class="fw-bold copyright-text text-center">Copyright © 2022 Tips4Traders. All rights reserved. Privacy Policy. Disclaimer.</span>
+ </div>
+
+ <div class="container text-dark">
+ <span class="fw-bold">PAID ADVERTISEMENT</span>
+ <p class="mt-3 mb-5 fw-normal">This communication is an advertisement. Tips for Traders is a brand name of IRPub LLC, its owners, directors, officers, employees, affiliates, agents, and assigns (collectively the “Publisher”) is often paid by one or more of the profiled companies or a third party to disseminate these types of communications. In this case, the Publisher has been compensated by Scryb Inc  to conduct public investor awareness, distribution, and investor education marketing for a period of 30 days. Scryb Inc  has paid the Publisher the equivalent of Seventy Five Thousand USD to produce and disseminate this and other similar articles and certain related banner advertisements. This compensation should be viewed as a major conflict with the Publisher’s ability to provide unbiased information or opinion.</p>
+
+ <span class="fw-bold">CHANGES IN SHARE TRADING AND PRICE</span>
+ <p class="mt-3 mb-5 fw-normal">Readers should beware that third parties, profiled companies, and/or their affiliates may liquidate shares of the profiled companies at any time, including at or near the time you receive this communication, which has the potential to adversely affect share prices. Frequently companies profiled in our articles experience a large increase in share trading volume and share price during the course of investor awareness marketing, which often ends as soon as the investor awareness marketing ceases. The investor awareness marketing may be as brief as one day, after which a large decrease in share trading volume and share price may likely occur.</p>
+
+
+ <span class="fw-bold">NO OFFER TO SELL OR BUY SECURITIES</span>
+ <p class="mt-3 mb-5 fw-normal">This communication is not, and should not be construed to be, an offer to sell or a solicitation of an offer to buy any security.</p>
+
+ <span class="fw-bold">INFORMATION</span>
+ <p class="mt-3 mb-5 fw-normal">Neither this communication nor the Publisher purports to provide a complete analysis of any company or its financial position. This communication is based on information generally available to the public and on an interview conducted with the company’s CEO and does not contain any material, non-public information. The information on which it is based is believed to be reliable. Nevertheless, the Publisher does not guarantee the accuracy or completeness of the information. Further, the information in this communication is not updated after publication and may become inaccurate or outdated. No reliance should be placed on the price or statistics information and no responsibility or liability is accepted for any error or inaccuracy. Any statements made should not be taken as an endorsement of analyst views.</p>
+
+
+ <span class="fw-bold">NO FINANCIAL ADVICE</span>
+ <p class="mt-3 mb-5 fw-normal">The Publisher is not, and does not purport to be, a broker-dealer or registered investment adviser, or a financial adviser. The Publisher has no access to non-public information about publicly traded companies. The information provided is general and impersonal and is not tailored to any particular individual’s financial situation or investment objective(s) and this communication is not, and should not be construed to be, personalized investment advice directed to or appropriate for any particular investor or a personal recommendation to deal or invest in any particular company or product. Any investment should be made only after consulting a professional investment advisor and only after reviewing the financial statements and other pertinent corporate information about the company. Further, readers are advised to read and carefully consider the Risk Factors identified and discussed in the advertised company’s SEC, SEDAR, and/or other government filings. Investing in securities, particularly microcap securities, is speculative and carries a high degree of risk. Past performance does not guarantee future results.</p>
+
+ <span class="fw-bold">FORWARD-LOOKING STATEMENTS</span>
+ <p class="mt-3 mb-5 fw-normal">This communication contains forward-looking statements, including statements regarding the expected continual growth of the featured companies and/or industry, potential for acquisitions and mergers, and potential groundbreaking developments. Statements in this communication that look forward in time, which include everything other than historical information, are based on assumptions and estimates by our content providers and involve risks and uncertainties that may affect the profiled company’s actual results of operations. These statements involve known and unknown risks, uncertainties, and other important factors that could cause the actual results and performance to differ materially from any future results or performance expressed or implied in the forward-looking statements. These risks, uncertainties, and other factors include, among others: the success of the profiled company’s operations; the size and growth of the market for the company’s products and services; the company’s ability to fund its capital requirements in the near term and long term; pricing pressures; changes in business strategy, practices or customer relationships; general worldwide economic and business conditions; currency exchange and interest rate fluctuations; government, statutory, regulatory or administrative initiatives affecting the company’s business.</p>
+
+ <span class="fw-bold">INDEMNIFICATION/RELEASE OF LIABILITY</span>
+ <p class="mt-3 mb-5 fw-normal">By reading this communication, you acknowledge that you have read and understood this disclaimer in full, and agree and accept that the Publisher provides no warranty in respect of the communication or the profiled company and accepts no liability whatsoever. You acknowledge and accept this disclaimer and that, to the greatest extent permitted under applicable law, you release and hold harmless the Publisher from any and all liability, damages, injury, and adverse consequences arising from your use of this communication. You further agree that you are solely responsible for any financial outcome related to or arising from your investment decisions.</p>
+
+ <span class="fw-bold">TERMS OF USE AND DISCLAIMER</span>
+ <p class="mt-3 mb-5 fw-normal">By reading this communication you agree that you have reviewed and fully agree to the Terms of Use found here Irpub.com/disclaimers_Disclosures.php and acknowledge that you have reviewed the Disclaimer found here:https://irpub.com/disclaimers_ disclosures.php. If you do not agree to the Terms of Use, please contact tipsfortraders.com to discontinue receiving email communications.</p>
+
+ <span class="fw-bold">INTELLECTUAL PROPERTY</span>
+ <p class="mt-3 mb-5 fw-normal">All trademarks used in this communication are the property of their respective trademark holders. Other than IRPub.com, the Publisher is not affiliated, connected, or associated with, and the communication is not sponsored, approved, or originated by, the trademark holders unless otherwise stated. No claim is made by the Publisher to any rights in any third-party trademarks other than tipsfortraders.com.</p>
+
+ <span class="fw-bold">AUTHORS PARTNER CONTENT</span>
+ <p class="mt-3 mb-5 fw-normal">All of the content found on this page was authored by our 3rd party affiliate partner. Tips for Traders, IRPub LLC, and our affiliates are not responsible for the content or accuracy of this article. Tips for Traders, IRPub LLC, DO NOT hold any position in the stock(s) and/or financial instrument(s) mentioned in the above piece. We have been paid to produce this piece by the Company or companies mentioned above.</p>
+ </div>
+</div>
+<?php $this->stopSection(); ?>
+<?php if (isset($_shouldextend[1])) { echo $this->runChild('layout'); } ?>
